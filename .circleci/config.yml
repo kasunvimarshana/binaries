@@ -56,6 +56,7 @@ jobs: # A basic unit of work in a run
           name: Deploy binaries
           command: |
             git clone --branch=master --depth=1 "https://github.com/tasmota/binaries.git" bin 
+            git checkout tags/v8.5.1
             cp Tasmota/build_output/firmware/* ~/binaries/bin
             cd ~/binaries/bin
             git config user.name "$USER_NAME"

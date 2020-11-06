@@ -1136,7 +1136,6 @@ o8o        o888o o888ooooood8  `Y8bood8P'   o88o     o8888o
 #undef CODE_IMAGE_STR
 #define CODE_IMAGE_STR "mega"
 
-//#define USE_ARDUINO_OTA                          // Add optional support for Arduino OTA (+13k code)
 #define USE_DOMOTICZ                             // Enable Domoticz (+6k code, +0.3k mem)
 #define USE_HOME_ASSISTANT                       // Enable Home Assistant Discovery Support (+7k code)
 
@@ -1384,7 +1383,6 @@ o888o        o888ooooood8 o88o     o8888o     o888o     o888o o8o        `8     
 #undef CODE_IMAGE_STR
 #define CODE_IMAGE_STR "platinum"
 
-#define USE_ARDUINO_OTA                          // Add optional support for Arduino OTA (+13k code)
 #define USE_DOMOTICZ                             // Enable Domoticz (+6k code, +0.3k mem)
 #define USE_HOME_ASSISTANT                       // Enable Home Assistant Discovery Support (+7k code)
 

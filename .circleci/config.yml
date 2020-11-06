@@ -51,6 +51,7 @@ jobs: # A basic unit of work in a run
             cd Tasmota
             . ../venv/bin/activate
             rm -rf /home/circleci/binaries/Tasmota/.pioenvs
+            rm -rf /home/circleci/binaries/Tasmota/.pio
             pio run
       - run: ls -al
       - run:

@@ -1,4 +1,4 @@
-# These binaries are not official stable releases and are built from the latest development branch! 
+# These binaries are not official releases and are built from the latest stable branch! 
 ## :warning: Flash responsibly! No support will be provided for issues with these binaries! :warning:
 
 ### Scripting included instead of rules

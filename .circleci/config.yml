@@ -36,8 +36,8 @@ jobs: # A basic unit of work in a run
             pip install --upgrade pip && pip install -r requirements.txt
       - run:
           name: Clone latest arendst/tasmota
-          # command: git clone --branch=development --depth=1 "https://github.com/arendst/Tasmota.git" 
-          command: git clone -b 'v9.1.0' --single-branch --depth=1 "https://github.com/arendst/Tasmota.git"
+          command: git clone --branch=development --depth=1 "https://github.com/arendst/Tasmota.git" 
+          # command: git clone -b 'v9.1.0' --single-branch --depth=1 "https://github.com/arendst/Tasmota.git"
       - run:
           name: Copy overrides
           command: cp platformio_override.ini Tasmota/platformio_override.ini && cp user_config_override.h Tasmota/tasmota/user_config_override.h

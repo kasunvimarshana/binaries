@@ -531,6 +531,7 @@ o888bood8P'  o88o     o8888o     o888o         o888o     o888ooooood8 o888o  o88
 
 #define USE_RULES                                // Add support for rules (+4k4 code)
 #define USE_TUYA_MCU                             // Add support for Tuya Serial MCU
+ #define USE_TUYA_TIME                           // Enable TuyaMCU sending local time to MCU
 
 #define USE_DEEPSLEEP                            // Add support for deepsleep (+1k code)
 

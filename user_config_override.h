@@ -576,7 +576,7 @@ oo     .d8P `88b    ooo   888  `88b.   888   888              888       888   8 
 
 #define USE_SCRIPT                               // Add support for script
   #define USE_SCRIPT_JSON_EXPORT
-//  #define USE_SCRIPT_WEB_DISPLAY
+  #define USE_SCRIPT_WEB_DISPLAY
 //  #define USE_SENDMAIL
   // #define USE_SCRIPT_FATFS 4                     // Add support for script storage on SD card (+12k code, +4k mem)
 
